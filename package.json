@@ -1,0 +1,29 @@
+{
+  "name": "ts-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && nodemon dist/index.js",
+    "dev": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "ts-node": "^10.9.1"
+  },
+  "compilerOption": {
+    "module": "commonjs",
+    "script": true,
+    "target": "ES2015",
+    "outDir": "dist"
+  },
+  "include": ["src/*"],
+  "exclude": ["node_modules"]
+}
