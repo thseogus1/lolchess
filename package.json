@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && nodemon dist/index.js",
+    "start": "tsc && nodemon dist/main.js",
     "dev": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
     "tsc-watch": "^6.0.4",
     "typescript": "^5.1.6"
   },
@@ -21,9 +23,14 @@
   "compilerOption": {
     "module": "commonjs",
     "script": true,
-    "target": "ES2015",
+    "target": "ES2021",
     "outDir": "dist"
   },
-  "include": ["src/*"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "keywords": []
 }
