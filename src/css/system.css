@@ -1,0 +1,251 @@
+
+.frontpage{
+  width: 100%;
+  height:350px;
+  text-align:center;
+  color:white;
+  background: url(https://cdn.lolchess.gg/images/common/bg-index-set9.jpg) 
+  no-repeat 50%;
+}
+
+.title{
+  padding-top:5%;
+}
+
+h1{
+  font-weight: bold;
+}
+
+.search-box{
+  background-color: white;
+  width:288px;
+  height:35px;
+  margin-left: 42%;
+}
+
+.nation{
+  color:firebrick;
+}
+#search_btn{
+  background-color: white;
+  border:none;
+}
+
+.profile-header{
+  width:1140px;
+  height:170px;
+  background: url(https://cdn.lolchess.gg/images/profile/bg-summoner.jpg) 
+  no-repeat;
+  margin-left:20%;
+  margin-top:5%;
+  color:white;
+  font-size:27px;
+}
+
+.profile-icon > img{
+  width:80px;
+  height:80px;
+  float:left;
+  margin:40px;
+  border-radius: 50%;
+}
+
+.player-name {
+  float:left;
+  margin-top:30px;
+}
+.player-name > span {
+  background-color: black;
+  font-size:15px;
+  width:27px;
+  height:18px;
+  margin-left:6px;
+  align-items:center;
+  border-radius:4px;
+  font-weight: 600;
+  padding: 0 6px;
+}
+
+.content{
+  width:1140px;
+  margin-left: 20%;
+  min-height: 1000px;
+}
+
+.tier-ranked{
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  width:366px;
+  height:135px;
+}
+
+.profile-tier-info{
+  padding:20px 5px 21px 15px;
+}
+.profile-tier-info > img{
+  width:84px;
+  height:84px;
+  float:left;
+}
+
+.profile-tier-info > div{
+  color: #646464;
+}
+.profile-summary-tier.IRON{
+  color: #505050;
+}.profile-summary-tier.BRONZE{
+  color: #ca9372;
+}.profile-summary-tier.SILVER{
+  color: #92b1bd;
+}.profile-summary-tier.GOLD{
+  color: #ffb93b;
+}.profile-summary-tier.PLATINUM{
+  color: #11b288;
+}.profile-summary-tier.DIAMOND{
+  color: #5393ca;
+}.profile-summary-tier.MASTER{
+  color: #5b4ba5;;
+}.profile-summary-tier.GRANDMASTER{
+  color: #c440da;
+}.profile-summary-tier.CHALLENGER{
+  color: #ed6767;
+}
+
+.profile-summary-div{
+  width:170px;
+  height:83px;
+  margin-left: 33%;
+}
+
+.profile-tier-info > div > span{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.profile-summary-lp{
+  margin-left:30px;
+}
+
+.profile-odds{
+  width:366px;
+  height:220px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.profile-odds > div{
+  width:179px;
+  height:69.5px;
+  display:inline-block;
+  padding: 10px 20px 10px; 
+  
+}
+.profile-wins, .profile-loss{
+  font-size:11px;
+}
+.profile-wins-value{
+  color: #11b288;
+  font-family: Pretendard,맑은 고딕,Malgun Gothic,Apple SD Gothic Neo,Helvetica,"Sans-serif";
+  float: right!important;
+}
+.profile-loss-value{
+  color:#ed6767;
+  font-family: Pretendard,맑은 고딕,Malgun Gothic,Apple SD Gothic Neo,Helvetica,"Sans-serif";
+  float: right!important;
+}
+
+.profile-tier-history{
+  width:750px;
+  height:344px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  float:right;
+  margin-top: -135px;
+}
+
+.box-header{
+  padding: 12px 16px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.box-header > h3{
+  color: #000;
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+}
+.profile-match-history{
+  width: 1140px;
+  margin-top: 230px;
+  display:flex;
+}
+.profile-match-history-detail{
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+  margin: 8px 0 0;
+  position: relative;
+  
+}
+
+.profile-match-history-img{
+  width:460px;
+  height:150px;
+  display:flex;
+  padding:15px; 
+}
+
+.unit-image {
+  width:40px;
+  margin-right:10px;
+}
+.unit-image > img{
+  width:40px;
+  height:40px;
+}
+
+.unit.star{
+  width:32px;
+  height:10px;
+}
+
+.profile-match-history-rank{
+  width:75px;
+  height:117px;
+  color: #207ac7;
+  font-size: 24px;
+  font-weight: 700;
+  vertical-align: middle;
+  margin-right:25px;
+  padding:15px;
+}
+.profile-match-history{
+  width:1140px;
+  height:117px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+}
+
+.item-img{
+  display:inline-grid;
+  margin: 0;
+}
+
+.profile-match-username{
+  width:250px;
+  height:117px;
+  margin:10px;
+}
+.profile-match-username > div {
+  font-size: 14px;
+  display:inline-block; 
+  width:113px;
+  
+}
+.profile-match-username > div >  img {
+  border-radius: 9999px;
+  width: 18px;
+  height:18px;
+  margin-right:5px;
+}
