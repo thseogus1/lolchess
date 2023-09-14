@@ -1,6 +1,5 @@
 //검색버튼 : 전적검색 상세로 이동
-localStorage.setItem("apiKey", JSON.stringify("RGAPI-43bd65b5-9a40-4742-95be-db41cb75792d"));
-var apiKey = "RGAPI-a7f606b2-f254-4c58-b68a-92b3a211cf8f"   // riot api키. 만료되면 바꿔줘야 됨
+var apiKey = "RGAPI-f32d289f-c663-4288-8804-f37d34f1dd30"   // riot api키. 만료되면 바꿔줘야 됨
 function onBtnSearch(){
    var username = $('#apply-name').val();
 

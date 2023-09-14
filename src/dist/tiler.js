@@ -1,5 +1,5 @@
-var test = JSON.parse(localStorage.getItem("test"));
-var apiKey = "RGAPI-a7f606b2-f254-4c58-b68a-92b3a211cf8f";
+var test = JSON.parse(sessionStorage.getItem("test"));
+var apiKey = "RGAPI-f32d289f-c663-4288-8804-f37d34f1dd30";
 var element = document.getElementById("profile-icon");
 var matchCount = 1;
 element.innerHTML = "<img src='http://ddragon.leagueoflegends.com/cdn/13.16.1/img/profileicon/" + test.profileIconId + ".png'>";
@@ -65,7 +65,7 @@ $.ajax({
                                 var item;
                                 var count1=0;
 
-                                champ = "<div><div class='unit-star'><img src = 'https://cdn.lolchess.gg/images/tft/stars/cost" + 
+                                var champ = "<div><div class='unit-star'><img src = 'https://cdn.lolchess.gg/images/tft/stars/cost" + 
                                 (rarity > 3 ? (rarity < 5 ? 
                                     rarity : rarity - 1): 
                                     rarity + 1 ) 
@@ -73,17 +73,11 @@ $.ajax({
                                 ".png'><div class='unit-image'><img src = 'https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/" + str + 
                                 ".png'></div>";
                        
-
-                                
                                 var items="";
                                 for(var m=0; m<3; m++){
                                     itemname = [matchData.info.participants[j].units[k].itemNames[m]];
                                     item = itemname.join();
                                     item = item.substring(9);
-
-                                    // if(item.length < 1 ){
-                                        
-                                    // }
 
                                     if(item.length > 0){
                                         items += "<div class='item-img'><img src='https://ap.tft.tools/img/items/" 
